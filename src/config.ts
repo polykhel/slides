@@ -2,6 +2,7 @@ import Markdown from 'reveal.js/plugin/markdown/markdown'
 import Highlight from 'reveal.js/plugin/highlight/highlight'
 import Math from 'reveal.js/plugin/math/math'
 import Notes from 'reveal.js/plugin/notes/notes'
+import background from '@lib/assets/parallax.jpg'
 
 import { registerLanguages } from '@languages'
 
@@ -54,6 +55,10 @@ const options: Reveal.Options = {
 	*/
 	hash: true,
 	history: true,
+	parallaxBackgroundImage: background,
+	parallaxBackgroundSize: '1720px 1030px',
+	parallaxBackgroundHorizontal: 200,
+  parallaxBackgroundVertical: 50
 }
 
 export default options

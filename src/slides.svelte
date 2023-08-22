@@ -5,13 +5,19 @@
 	import Media from '@lib/components/media.svelte'
 	import Vertical from '@lib/components/vertical.svelte'
 	import Code from '@lib/components/code.svelte'
+
+	import aboutme from '@lib/assets/aboutme.gif'
+	import componentBased from '@lib/assets/component-based.png'
 </script>
 
 <Presentation>
 	<Slide>
-		<h1 class="font-bold">
-			Latest Tech Advancements in Software Engineering / Web Development
-		</h1>
+		<div class="title">
+			<h1 class="font-bold">The Future of Web Development:</h1>
+			<h1 class="font-bold">
+				JavaScript Frameworks, Streamlined Styling, and PWAs
+			</h1>
+		</div>
 		<Notes>
 			<p>
 				Hello, everyone. Thank you for inviting me today to talk to you about
@@ -41,8 +47,7 @@
 			</Step>
 		</Step>
 		<Step fadeUp>
-			<Media class="my-0 mx-auto" type="img" src="/static/assets/aboutme.gif"
-			></Media>
+			<Media class="my-0 mx-auto" type="img" src={aboutme}></Media>
 		</Step>
 
 		<Notes>
@@ -184,8 +189,9 @@
 	</Vertical>
 	<Vertical>
 		<Slide>
-			<h1>Rise of JavaScript Frameworks and Component-Based Architecture</h1>
-
+			<div class="title">
+				<h1>Rise of JavaScript Frameworks and Component-Based Architecture</h1>
+			</div>
 			<Notes>
 				<p>
 					Welcome to the forefront of modern front-end development, where
@@ -391,7 +397,17 @@
 
 		<Slide>
 			<h1>Component-Based Architecture</h1>
-			<Media type="img" src="/static/assets/component-based.png"></Media>
+			<Media type="img" src={componentBased}></Media>
+
+			<Notes>
+				At the core of this transformation is the concept of component-based
+				architecture. Instead of building monolithic pages, we craft
+				applications by piecing together reusable components. Each component
+				encapsulates specific functionality and can be combined like building
+				blocks to form intricate interfaces. This approach not only improves the
+				efficiency of development but also enhances maintainability and
+				encourages collaboration among teams.
+			</Notes>
 		</Slide>
 
 		<Slide>
@@ -464,9 +480,7 @@
 				require strong architectural patterns, scalability, and TypeScript's
 				benefits.
 			</Step>
-			<Step class="text-base"
-				>Used by Google, Microsoft, Samsung</Step
-			>
+			<Step class="text-base">Used by Google, Microsoft, Samsung</Step>
 		</Slide>
 		<Slide
 			iframe="https://stackblitz.com/edit/stackblitz-starters-qezzny?ctl=1&embed=1&file=src%2Fapp%2Fapp.component.ts"
@@ -587,6 +601,57 @@
 				`}
 			</Code>
 		</Slide>
-		<Slide iframe="https://stackblitz.com/edit/vitejs-vite-w4rgar?ctl=1&embed=1&file=src%2FApp.svelte"></Slide>
+		<Slide
+			iframe="https://stackblitz.com/edit/vitejs-vite-w4rgar?ctl=1&embed=1&file=src%2FApp.svelte"
+		>
+			<Notes
+				>JavaScript frameworks and component-based architecture have fueled the
+				creation of remarkable applications that span industries. From social
+				media platforms to e-commerce giants, the influence of these
+				advancements is evident in the seamless experiences they deliver.</Notes
+			>
+		</Slide>
+	</Vertical>
+	<Vertical>
+		<Slide>
+			<div class="title">
+				<h1>Streamlining Styling:</h1>
+				<h1>
+					Tailwind CSS
+					<i class="devicon-tailwindcss-plain colored"></i>
+					and CSS-in-JS
+				</h1>
+			</div>
+
+			<Notes>
+				Continuing our exploration of front-end advancements, let's delve into
+				the world of styling. . Frameworks like Bootstrap and Material address
+				this challenge by creating styles for high-level components, like
+				buttons and forms. But when you make a Bootstrapp, it looks like a
+				Bootstrap app. Tailwind takes a more functional approach by providing
+				you with utility classes that can be composed together to build
+				components. Instead of using the card class like you might in Bootstrap,
+				you combine utility classes like flex to make it a flexbox, p to give it
+				a padding, m for margin, and others like color, shadows. In addition,
+				every utility can be applied conditionally. You have variants like
+				small, medium and large for responsive designs along with
+				psuedo-selectors like hover and focus to handle state changes, or dark
+				to render different colors when dark mode is enabled. However, it does
+				produce some ugly ass html, you've got tons of hard-to-read duplicate
+				class names. As your UI grows in complexity, code duplication is
+				inevitable. But you can avoid it by creating reusable components with
+				CSS-in-JS like styled-components, or by using the apply directive in css
+				to take tailwind classes and compose them into a single concise class
+				name. Tailwind also has a 'purge' feature that removes any unused
+				utility from the final bundle resulting in minimal dead code and thus
+				faster page loads.
+			</Notes>
+		</Slide>
+		<Slide>
+			<blockquote>
+				<p>Semantic class names are the reason CSS is hard to maintain</p>
+				<footer>— Adam Wathan, Tailwind Author</footer>
+			</blockquote>
+		</Slide>
 	</Vertical>
 </Presentation>

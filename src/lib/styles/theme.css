@@ -57,7 +57,7 @@
 	padding: 5px;
 	overflow: auto;
 	word-wrap: normal;
-	max-height: 600px
+	max-height: 600px;
 }
 
 .reveal .code-wrapper {
@@ -129,7 +129,12 @@
 	color: var(--r-link-color);
 }
 
-.reveal h1,h2,h3,h4,h5,h6 {
+.reveal h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-family: var(--r-heading-font);
 	font-size: 1.2em;
 }
@@ -138,10 +143,13 @@
 	font-family: var(--r-quote-font);
 	font-style: italic;
 	display: block;
-    position: relative;
-    width: 70%;
-    margin: 20px auto;
-    padding: 5px;
-    background: hsla(0,0%,100%,.05);
-    box-shadow: 0 0 2px rgba(0,0,0,.2);
+	position: relative;
+	width: 70%;
+	margin: 20px auto;
+	padding: 5px;
+	@apply shadow-md bg-gray-700 bg-opacity-60;
+}
+
+.reveal .title {
+	@apply shadow-md bg-gray-700 bg-opacity-60;
 }
