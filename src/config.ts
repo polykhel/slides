@@ -2,7 +2,7 @@ import Markdown from 'reveal.js/plugin/markdown/markdown'
 import Highlight from 'reveal.js/plugin/highlight/highlight'
 import Math from 'reveal.js/plugin/math/math'
 import Notes from 'reveal.js/plugin/notes/notes'
-import background from '@lib/assets/parallax.jpg'
+import background from '@lib/assets/background.jpg'
 
 import { registerLanguages } from '@languages'
 

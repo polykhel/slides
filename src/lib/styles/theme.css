@@ -149,7 +149,3 @@ h6 {
 	padding: 5px;
 	@apply shadow-md bg-gray-700 bg-opacity-60;
 }
-
-.reveal .title {
-	@apply shadow-md bg-gray-700 bg-opacity-60;
-}
