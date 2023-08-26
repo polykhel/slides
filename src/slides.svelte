@@ -4,15 +4,14 @@
 	import Introduction from './slides/1-introduction.svelte'
 	import Javascript from './slides/2-javascript.svelte'
 	import Styles from './slides/3-styles.svelte'
+	import PWA from './slides/4-pwa.svelte'
 </script>
 
 <Presentation>
 	<Introduction/>
 	<Javascript />
 	<Styles />
-	<Slide>
-		<h1>FAQs</h1>
-	</Slide>
+	<PWA />
 	<Slide>
 		<h1>Hit me up!</h1>
 		links here
@@ -25,5 +24,8 @@
 				always game.
 			</p>
 		</Notes>
+	</Slide>
+	<Slide>
+		<h1>FAQs</h1>
 	</Slide>
 </Presentation>

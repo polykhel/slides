@@ -384,6 +384,9 @@
 			bundle sizes and better runtime performance. Svelte takes care of
 			optimizing code, leading to faster applications.
 		</p>
+		<p>
+			most loved framework
+		</p>
 
 		<Step class="mt-5 text-base">
 			Svelte is an excellent choice when performance is a critical concern. It's
@@ -427,6 +430,11 @@
             <\/style>
             `}
 		</Code>
+
+		<Notes>
+			Fun fact: this presentation was made in Svelte, powered by Animotion and reveal.js. So kung sawa ka na sa PowerPoint, you can now also code your presentations!
+			reveal.js can be used without any JavaScript framework, I just love using Svelte
+		</Notes>
 	</Slide>
 	<Slide
 		iframe="https://stackblitz.com/edit/vitejs-vite-w4rgar?ctl=1&embed=1&file=src%2FApp.svelte"
