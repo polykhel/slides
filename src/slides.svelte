@@ -14,7 +14,8 @@
 	<PWA />
 	<Slide>
 		<h1>Hit me up!</h1>
-		links here
+		<p>https://www.linkedin.com/in/mpollente/</p>
+		<p>https://twitter.com/polypollens</p>
 		<Notes>
 			<p>
 				If you remember my introduction kanina, I said na I'm passionate about

@@ -32,6 +32,7 @@
 		"@fontsource-variable/manrope": "^5.0.5",
 		"@fontsource/itim": "^5.0.5",
 		"@fontsource/krona-one": "^5.0.5",
+		"@fontsource-variable/josefin-sans": "^5.0.6",
 		"reveal.js": "^4.5.0"
 	}
 }

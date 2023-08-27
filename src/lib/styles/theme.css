@@ -1,6 +1,6 @@
 @import '@fontsource-variable/manrope';
 @import '@fontsource-variable/jetbrains-mono';
-@import '@fontsource/krona-one';
+@import '@fontsource-variable/josefin-sans';
 @import '@fontsource/itim';
 
 :root {
@@ -8,8 +8,7 @@
 	--r-main-font: 'Itim';
 	--r-main-font-size: 24px;
 	--r-main-color: hsl(226 19% 98%);
-	--r-heading-font: 'Krona One';
-	--r-quote-font: 'Itim';
+	--r-heading-font: 'Josefin Sans Variable';
 	--r-code-font: 'JetBrains Mono Variable';
 	--r-link-color: hsl(180 100% 50%);
 }
@@ -140,12 +139,11 @@ h6 {
 }
 
 .reveal blockquote {
-	font-family: var(--r-quote-font);
 	font-style: italic;
 	display: block;
 	position: relative;
 	width: 70%;
 	margin: 20px auto;
 	padding: 5px;
-	@apply shadow-md bg-gray-700 bg-opacity-60;
+	@apply shadow-md bg-gray-700 bg-opacity-30;
 }

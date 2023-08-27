@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Slide } from '@components'
+	import {Slide} from '@components'
 	import Notes from '@lib/components/notes.svelte'
 	import Step from '@lib/components/step.svelte'
 	import Media from '@lib/components/media.svelte'
@@ -9,23 +9,22 @@
 </script>
 
 <Slide>
-	<div class="title">
-		<h1 class="font-bold">The Future of Web Development:</h1>
+	<div class="bg-black bg-opacity-30 text-3xl p-3">
+		<h1 class="font-bold">The Future 🚀 of Web Development:</h1>
 		<h1 class="font-bold">
-			JavaScript Frameworks, Streamlined Styling, and PWAs
+			JavaScript Frameworks 🔥<br> Streamlined Styling 🎨<br> and PWAs 📱
 		</h1>
 	</div>
 	<Notes>
+		<p>Hello, everyone. Good afternoon. This is my first time to give a talk like this, so forgive me if I make some
+			mistakes along the way.
+		</p>
 		<p>
-			Hello, everyone. Thank you for inviting me today to talk to you about the
-			latest tech advancements in software engineering and web development. As
-			we all know, tech is a very dynamic field, where new technologies emerge
-			every year or months to solve complex problems, improve user experience,
-			and create innovative products. Some of the latest trends that I will
-			cover today are: front-end advancements like the rise of JavaScript
-			frameworks, Progressive Web Apps, image containerization and orchestration
-			using tools like Docker and Kubernetes, WebAssembly (Wasm) and especially
-			the rise of generative AI.
+			Nabigay na topic sakin is to discuss the latest tech advancements in software engineering and web development.
+			Pero as we all know, software engineering is a diverse topic and sa front-end pa lang sobrang dami na pwedeng
+			ma-discuss. So nilimit ko na lang yung presentation ko today to the latest trends in front-end tech. We'll
+			talk about the rise of JavaScript frameworks,
+			new ways style your web apps, and the prospect of PWAs or progressive web apps.
 		</p>
 	</Notes>
 </Slide>
@@ -48,6 +47,7 @@
 	</Step>
 
 	<Notes>
+		<p>Before anything else, magbibigay lang ako ng short introduction.</p>
 		<p>
 			Hello There - I'm honored to be your resource speaker for this session. My
 			name is Michael Pollente. PUP graduate nung 2016. Total of 7 years of
@@ -74,7 +74,7 @@
 		</p>
 		<p>
 			Namili na lang ako ng tingin ko relevant sa inyo bilang college students
-			na magandang ma-expose na kayo before pa pumasok sa industry.
+			na magandang ma-expose na kayo before pa pumasok sa tech industry.
 		</p>
 	</Notes>
 </Slide>
@@ -87,8 +87,7 @@
 
 	<Notes>
 		<p>
-			I don't know who said this because I can't find any direct quote pero I
-			remember reading this somewhere before and it resonated with me. This
+			I remember reading this somewhere before and it resonated with me. This
 			speaks directly to the heart of our topic today - the dynamic world of
 			software engineering and web development. Tech is rapidly evolving. From
 			new programming languages, frameworks, methodologies, and paradigms emerge
@@ -111,12 +110,21 @@
 	</Notes>
 </Slide>
 <Vertical>
-	<Slide animate>
+	<Slide animate class="bg-black bg-opacity-30 text-3xl p-3">
 		<h1>Evolution of Front-end Development</h1>
 		<sub
 			>Navigating the Evolution: From Static Pages to Dynamic, Interactive Web
 			Apps</sub
 		>
+		<Notes>
+			<p>
+				Before we look at where we are today, explore muna natin yung evolution of
+				web development. In the early days, web development was
+				synonymous with basic HTML pages and limited interactivity. Dati kasi ang
+				focus lang ng mga website is to present information rather creating
+				immersive user experiences. (scroll down, discuss the static website)
+			</p>
+		</Notes>
 	</Slide>
 	<Slide animate iframe="https://wiby.me/">
 		<div class="group relative">
@@ -131,7 +139,7 @@
 			</div>
 		</div>
 	</Slide>
-	<Slide animate animateRestart iframe="https://paolofornasier.com/">
+	<Slide animate animateRestart iframe="https://youtube.com/">
 		<div class="group relative">
 			<div
 				class="absolute w-2/5 shadow-md bg-black bg-opacity-90 text-white p-5 text-lg text-left transition-opacity duration-300 opacity-100 group-hover:opacity-0"
@@ -143,40 +151,11 @@
 				>
 			</div>
 		</div>
-	</Slide>
-	<Slide animate>
-		<h1>Evolution of Front-end Development</h1>
-		<sub
-			>Navigating the Evolution: From Static Pages to Dynamic, Interactive Web
-			Apps</sub
-		>
-		<Step class="mt-10">
-			Rise of JavaScript Frameworks and Component-Based Architecture
-		</Step>
-		<Step class="mt-2">Tailwind CSS and CSS-in-JS</Step>
-		<Step class="mt-2">Progressive Web Apps (PWA)</Step>
-		<Step class="mt-2">WebAssembly (Wasm)</Step>
-		<Step class="mt-2">GraphQL</Step>
-	</Slide>
 
-	<Notes>
-		<p>
-			Before we look at where we are today, explore muna natin yung evolution of
-			software and web development. In the early days, web development was
-			synonymous with basic HTML pages and limited interactivity. Dati kasi ang
-			focus lang ng mga website is to present information rather creating
-			immersive user experiences. (scroll down, discuss the static website)
-		</p>
-		<p>
-			Fast forward to today and see how we can create very dynamic and
-			interactive websites (scroll down, discuss interactive website). This is
-			just an example of what's possible today, if you want more inspiration,
-			you can go this website https://awwwards.com that features and rates
-			websites based on different categories.
-		</p>
-		<p>
-			So what made this evolution possible? This is what we're going to discuss
-			today: we're going to discuss (fade the topics one by one)
-		</p>
-	</Notes>
+		<Notes>
+			<p>
+				Fast forward to today
+			</p>
+		</Notes>
+	</Slide>
 </Vertical>

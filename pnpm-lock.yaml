@@ -8,6 +8,9 @@ dependencies:
   '@fontsource-variable/jetbrains-mono':
     specifier: ^5.0.6
     version: 5.0.6
+  '@fontsource-variable/josefin-sans':
+    specifier: ^5.0.6
+    version: 5.0.6
   '@fontsource-variable/manrope':
     specifier: ^5.0.5
     version: 5.0.5
@@ -20,9 +23,6 @@ dependencies:
   reveal.js:
     specifier: ^4.5.0
     version: 4.5.0
-  svelte-icons:
-    specifier: ^2.1.0
-    version: 2.1.0
 
 devDependencies:
   '@sveltejs/vite-plugin-svelte':
@@ -289,6 +289,10 @@ packages:
 
   /@fontsource-variable/jetbrains-mono@5.0.6:
     resolution: {integrity: sha512-EwcHm7hU8FlosfeW5RRGEB9A3w7Yg7pkF/CgMlekkkDArnbu1YYGlroZw361IG0CFkzjjjPo73vFycdcH+1pbg==}
+    dev: false
+
+  /@fontsource-variable/josefin-sans@5.0.6:
+    resolution: {integrity: sha512-olxH6x9JPHXhqe17+H8h9t8ClJpvRgguDeJsiMe1vntdqsWMz7K9/pZtuqNQ+4VAI29J6wGSFh98UETMMSnOxw==}
     dev: false
 
   /@fontsource-variable/manrope@5.0.5:
@@ -1262,10 +1266,6 @@ packages:
     dependencies:
       svelte: 4.1.1
     dev: true
-
-  /svelte-icons@2.1.0:
-    resolution: {integrity: sha512-rHPQjweEc9fGSnvM0/4gA3pDHwyZyYsC5KhttCZRhSMJfLttJST5Uq0B16Czhw+HQ+HbSOk8kLigMlPs7gZtfg==}
-    dev: false
 
   /svelte-preprocess@5.0.4(postcss-load-config@4.0.1)(postcss@8.4.27)(svelte@4.1.1)(typescript@5.1.6):
     resolution: {integrity: sha512-ABia2QegosxOGsVlsSBJvoWeXy1wUKSfF7SWJdTjLAbx/Y3SrVevvvbFNQqrSJw89+lNSsM58SipmZJ5SRi5iw==}
