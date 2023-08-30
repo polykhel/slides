@@ -16,6 +16,7 @@
 		| 'concave'
 		| 'zoom'
 		| null
+	type TransitionSpeed = 'default' | 'fast' | 'slow'
 
 	export let animate: Bool = null
 	export let animateEasing: String = null
@@ -31,6 +32,7 @@
 	export let interactive: Bool = null
 	export let transition: Transition = null
 	export let size: String = "cover"
+	export let transitionSpeed: TransitionSpeed = 'default'
 
 	const dispatch = createEventDispatcher()
 	const slideIndex = index++
@@ -56,6 +58,7 @@
 	data-background-interactive={interactive}
 	data-background-size={size}
 	data-transition={transition}
+	data-transition-speed={transitionSpeed}
 	class={$$props.class || ''}
 	{...$$restProps}
 >

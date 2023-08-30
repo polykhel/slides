@@ -5,6 +5,7 @@
     import Vertical from '@lib/components/vertical.svelte'
     import Code from '@lib/components/code.svelte'
     import Step from '@lib/components/step.svelte'
+    import Fit from '@lib/components/fit.svelte'
 
     import bootstrapLogo from '@lib/assets/bootstrap-logo.png'
     import foundationLogo from '@lib/assets/foundation-logo.svg'
@@ -31,9 +32,7 @@
                 like JavaScript, you can build your projects with pure CSS, without
                 using any library. Pero who has time for that? Also, imagine yung
                 maintenance nun kapag medyo lumaki na yung website at sobrang dami na
-                CSS files. All the UI libraries and frameworks are some of the most
-                popular and latest to come out, which greatly help the developer
-                experience and reduce development time.
+                CSS files.
             </p>
         </Notes>
     </Slide>
@@ -125,7 +124,7 @@
 							<p class="chat-notification-message">You have a new message!</p>
 						</div>
 					</div>
-		
+
 					<style>
 						.chat-notification {
 							display: flex;
@@ -157,8 +156,8 @@
 							font-size: 1rem;
 							line-height: 1.5;
 						}
-					<\/style>
-				`}
+					</style>
+			`}
         </Code>
     </Slide>
     <Slide>
@@ -295,9 +294,8 @@
             </p>
         </Notes>
     </Slide>
-    <Slide iframe="https://tailwindcss.com/showcase"></Slide>
     <Slide>
-        <h1>CSS-in-JS</h1>
+        <Fit>CSS-in-JS</Fit>
 
         <Step order="0" type="table">
             <thead>
@@ -392,7 +390,10 @@
         </Notes>
     </Slide>
     <Slide>
-        <h1>Styled Components</h1>
+        <Fit class="text-amber-700">Styled Components 💅</Fit>
+		<p>
+			CSS for the Component Age
+		</p>
 
         <Step>
             <Code class="mt-5" lang="jsx">

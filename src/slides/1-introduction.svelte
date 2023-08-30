@@ -20,15 +20,20 @@
 			mistakes along the way.
 		</p>
 		<p>
-			Nabigay na topic sakin is to discuss the latest tech advancements in software engineering and web development.
-			Pero as we all know, software engineering is a diverse topic and sa front-end pa lang sobrang dami na pwedeng
-			ma-discuss. So nilimit ko na lang yung presentation ko today to the latest trends in front-end tech. We'll
-			talk about the rise of JavaScript frameworks,
-			new ways style your web apps, and the prospect of PWAs or progressive web apps.
+			Nabigay na topic sakin is to discuss the latest tech advancements in software engineering and web
+			development.
+			Una kong balak is to discuss yung advancements from frontend, backend, devops, cloud even yung emergence ng
+			generative AI.
+			Pero nung ginagawa ko yung presentation, sa front-end pa lang sobrang dami na pwedeng
+			ma-discuss, unless i-breeze through ko lahat, hindi abbot sa allotted time ko, kaya nilimit ko na lang yung
+			presentation ko today to the latest trends in front-end development. We'll
+			talk about the rise of JavaScript frameworks and component-based architecture,
+			new ways style your web apps using utility libraries like Tailwind CSS and CSS-in-JS solutions, and how to
+			make PWAs or progressive web apps. We're going to build a PWA later.
 		</p>
 	</Notes>
 </Slide>
-<Slide>
+<Slide transition="fade" transitionSpeed="slow">
 	<h2 class="uppercase">Hello There</h2>
 	<Step>
 		<Step grow>
@@ -68,13 +73,10 @@
 			ako kasi di talaga ako magaling mag-program. Pero nung na-expose ako sa
 			industry, na-realize ko na masaya pala talaga 'to. Lalo na kapag nakikita
 			mong gumagana yung ginawa mo at nagagamit ng maraming tao at na-iimprove
-			yung experience nila. Part ng passion na yun ay ang pag-keep up sa latest
-			trends sa software development, which is a very dynamic field kaya medyo
-			mahirap ilista ngayon.
+			yung experience nila.
 		</p>
 		<p>
-			Namili na lang ako ng tingin ko relevant sa inyo bilang college students
-			na magandang ma-expose na kayo before pa pumasok sa tech industry.
+			I also enjoy learning new things. Since I'm a fullstack developer, I always keep up sa mga latest trends both sa frontend and backend.
 		</p>
 	</Notes>
 </Slide>
@@ -105,7 +107,7 @@
 			fundamentals. While tools may change, the core principles remain
 			relatively constant. Personally, I'm not a master of everything I'm going
 			to talk about later, pero I keep myself updated through newsletters, blog,
-			etc. Kasi (wala lang) nag-eenjoy akong mag-try ng new things.
+			etc. Kasi, like I said, I enjoy trying new things.
 		</p>
 	</Notes>
 </Slide>
@@ -126,35 +128,13 @@
 			</p>
 		</Notes>
 	</Slide>
-	<Slide animate iframe="https://wiby.me/">
-		<div class="group relative">
-			<div
-				class="absolute w-2/5 shadow-md bg-black bg-opacity-90 text-white p-5 text-lg text-left transition-opacity duration-300 opacity-100 group-hover:opacity-0"
-			>
-				<h1>Evolution of Front-end Development</h1>
-				<sub
-					>Navigating the Evolution: From Static Pages to Dynamic, Interactive
-					Web Apps</sub
-				>
-			</div>
-		</div>
+	<Slide iframe="https://wiby.me/">
 	</Slide>
-	<Slide animate animateRestart iframe="https://youtube.com/">
-		<div class="group relative">
-			<div
-				class="absolute w-2/5 shadow-md bg-black bg-opacity-90 text-white p-5 text-lg text-left transition-opacity duration-300 opacity-100 group-hover:opacity-0"
-			>
-				<h1>Evolution of Front-end Development</h1>
-				<sub
-					>Navigating the Evolution: From Static Pages to Dynamic, Interactive
-					Web Apps</sub
-				>
-			</div>
-		</div>
-
+	<Slide iframe="https://tailwindcss.com/showcase">
 		<Notes>
 			<p>
-				Fast forward to today
+				Fast forward to today. Let's explore some modern websites we have today. These are all made with Tailwind CSS, a tool we're going to talk about later.
+				Look at how interactive this website is. Uses videos, custom fonts, animations, etc. Look at wappalyzer
 			</p>
 		</Notes>
 	</Slide>
