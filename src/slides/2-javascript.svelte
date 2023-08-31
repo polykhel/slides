@@ -1,11 +1,5 @@
 <script lang="ts">
-	import { Slide } from '@components'
-	import Notes from '@lib/components/notes.svelte'
-	import Step from '@lib/components/step.svelte'
-	import Media from '@lib/components/media.svelte'
-	import Vertical from '@lib/components/vertical.svelte'
-	import Code from '@lib/components/code.svelte'
-	import Fit from '@lib/components/fit.svelte'
+	import { Slide, Notes, Step, Media, Vertical, Code, FitText } from '@components'
 
 	import componentBased from '@lib/assets/component-based.png'
 </script>
@@ -58,9 +52,9 @@
 		</Notes>
 	</Slide>
 	<Slide>
-		<Fit class="bg-black bg-opacity-30 p-3" type="div"
+		<FitText class="bg-black bg-opacity-30 p-3" type="div"
 			>Which JavaScript framework is the best?
-		</Fit>
+		</FitText>
 
 		<Notes>
 			<p>
@@ -92,7 +86,7 @@
 			{`
                 <html lang="en">
                 <body>
-                    <form> 
+                    <form>
                         <input name="todo" type="text">
                         <input type="submit" value="Add Todo">
                     </form>
@@ -124,7 +118,7 @@
 			{`
                 <html lang="en">
                 <body>
-                    <form> 
+                    <form>
                         <input name="todo" type="text">
                         <input type="submit" value="Add Todo">
                     </form>
@@ -159,7 +153,7 @@
 			{`
                 <html lang="en">
                 <body>
-                    <form> 
+                    <form>
                         <input name="todo" type="text">
                         <input type="submit" value="Add Todo">
                     </form>
@@ -222,10 +216,10 @@
 	</Slide>
 
 	<Slide>
-		<Fit class="bg-black bg-opacity-30 text-blue-400">
+		<FitText class="bg-black bg-opacity-30 text-blue-400">
 			React
 			<i class="devicon-react-original colored"></i>
-		</Fit>
+		</FitText>
 		<Step class="mt-5 bg-black bg-opacity-30" type="div">
 			<ul>
 				<Step type="li">A JavaScript library for creating user interfaces</Step>
@@ -393,10 +387,10 @@
 	></Slide>
 
 	<Slide>
-		<Fit class="bg-black bg-opacity-30 text-red-600">
+		<FitText class="bg-black bg-opacity-30 text-red-600">
 			Angular
 			<i class="devicon-angularjs-plain colored"></i>
-		</Fit>
+		</FitText>
 
 		<Step type="div" class="mt-5 bg-black bg-opacity-30">
 			<Step>
@@ -444,10 +438,10 @@
 	></Slide>
 
 	<Slide>
-		<Fit class="bg-black bg-opacity-30 text-green-700">
+		<FitText class="bg-black bg-opacity-30 text-green-700">
 			Vue.js
 			<i class="devicon-vuejs-plain colored"></i>
-		</Fit>
+		</FitText>
 
 		<Step type="div" class="mt-5 bg-black bg-opacity-30">
 			<Step>
@@ -599,10 +593,10 @@
 	></Slide>
 
 	<Slide>
-		<Fit class="text-red-600">
+		<FitText class="text-red-600">
 			Svelte
 			<i class="devicon-svelte-plain colored"></i>
-		</Fit>
+		</FitText>
 
 		<Step type="div" class="mt-5 bg-black bg-opacity-30">
 			<Step class="mt-5">StackOverflow's Most Loved Framework of 2021</Step>

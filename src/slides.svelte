@@ -1,6 +1,5 @@
 <script lang="ts">
-	import { Presentation, Slide } from '@components'
-	import Notes from '@lib/components/notes.svelte'
+	import { Presentation, Slide, Notes } from '@components'
 	import Introduction from './slides/1-introduction.svelte'
 	import Javascript from './slides/2-javascript.svelte'
 	import Styles from './slides/3-styles.svelte'
@@ -28,5 +27,9 @@
 	</Slide>
 	<Slide>
 		<h1>FAQs</h1>
+
+        <ol>
+            <li>Don't be a frameworker, be an engineer</li>
+        </ol>
 	</Slide>
 </Presentation>

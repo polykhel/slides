@@ -1,11 +1,5 @@
 <script lang="ts">
-    import {Slide} from '@components'
-    import Notes from '@lib/components/notes.svelte'
-    import Media from '@lib/components/media.svelte'
-    import Vertical from '@lib/components/vertical.svelte'
-    import Code from '@lib/components/code.svelte'
-    import Step from '@lib/components/step.svelte'
-    import Fit from '@lib/components/fit.svelte'
+    import {Slide, Notes, Media, Vertical, Code, Step, FitText} from '@components'
 
     import bootstrapLogo from '@lib/assets/bootstrap-logo.png'
     import foundationLogo from '@lib/assets/foundation-logo.svg'
@@ -295,7 +289,7 @@
         </Notes>
     </Slide>
     <Slide>
-        <Fit>CSS-in-JS</Fit>
+        <FitText>CSS-in-JS</FitText>
 
         <Step order="0" type="table">
             <thead>
@@ -390,7 +384,7 @@
         </Notes>
     </Slide>
     <Slide>
-        <Fit class="text-amber-700">Styled Components 💅</Fit>
+        <FitText class="text-amber-700">Styled Components 💅</FitText>
 		<p>
 			CSS for the Component Age
 		</p>

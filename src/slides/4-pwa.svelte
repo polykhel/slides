@@ -1,8 +1,5 @@
 <script lang="ts">
-    import {Slide} from '@components'
-    import Notes from '@lib/components/notes.svelte'
-    import Vertical from '@lib/components/vertical.svelte'
-    import Step from '@lib/components/step.svelte'
+    import {Notes, Slide, Step, Vertical} from '@components'
 </script>
 
 <Vertical>
@@ -33,7 +30,8 @@
 
         <Notes>
             <ol>
-                <li>(read quote) Esentially, PWAs are web apps, which functions like a native app. They are made in the same way.
+                <li>(read quote) Esentially, PWAs are web apps, which functions like a native app. They are made in the
+                    same way.
                     WebAssembly is a low-level assembly-like
                     language that can be run on the browser. You can write code with C,C++,C#, Java, Rust and compile it
                     to WebAssembly. I was gonna cover this in this presentation pero medyo
