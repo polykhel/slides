@@ -1,11 +1,12 @@
 <script setup>
-    import {Notes, Slide} from '@components';
+    import {Notes, Slide, Step} from '@components';
 </script>
 
 
 <Slide>
-    <h1>FAQs</h1>
+    <h1>Q&A</h1>
 
+    <Step>
     <ol>
         <li>What are the benefits of using JavaScript frameworks for web development?</li>
         <li>How do I choose the best JavaScript framework for my project?</li>
@@ -13,6 +14,7 @@
         <li>What is CSS-in-JS and why should I use it?</li>
         <li>What are PWAs and what are their advantages?</li>
     </ol>
+    </Step>
 
     <Notes>
         <ol>

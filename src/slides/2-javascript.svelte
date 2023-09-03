@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Slide, Notes, Step, Media, Vertical, Code, FitText } from '@components'
+	import {Code, FitText, Media, Notes, Slide, Step, Vertical,} from '@components'
 
 	import componentBased from '@lib/assets/component-based.png'
 </script>
@@ -21,8 +21,10 @@
 				JavaScript frameworks provide us with tools and features that make our
 				code more organized, reusable and interactive. They also help us deal
 				with browser compatibility issues, security risks and performance
-				optimization. In short, JavaScript frameworks make our lives easier and
-				our websites better.
+				optimization. You can still avail those features using plain JavaScript,
+				but you have to implement them yourself. JavaScript frameworks provide
+				those features to us for free.In short, JavaScript frameworks make our
+				lives easier and our websites better.
 			</p>
 		</Notes>
 	</Slide>
@@ -43,6 +45,10 @@
 				traditional way of building web pages, where each page is a monolithic
 				piece of code that contains all the HTML, CSS, and JavaScript for the
 				entire page.
+			</p>
+			<p>
+				For example, in the traditional way we have our home page inside one file. Then we have our about page
+				on another file.
 			</p>
 			<p>
 				A component is usually a UI element such as a button, pop-up, or
@@ -254,9 +260,21 @@
 				</li>
 				<li>
 					React works by creating a virtual DOM in memory, which is a
-					representation of the actual DOM. React js compares the virtual DOM
-					with the real DOM and only updates the parts that have changed. This
-					makes React fast and responsive.
+					representation of the actual DOM. React compares the virtual DOM
+					with the real DOM and only updates the parts that have changed.
+					<p>
+						Before we talk about Virtual DOM, let's understand what DOM is. DOM stands for Document Object
+						Model, and it's a way of representing your web page as a tree of elements. Each element has
+						attributes, like id, class, style, etc. The browser uses the DOM to render your page on the
+						screen. However, the DOM is not very fast or efficient when it comes to updating the page. Every
+						time you make a change to the DOM, the browser has to repaint the whole page, which can be slow
+						and costly. That's where Virtual DOM comes in. Virtual DOM is a copy of the DOM, but with some
+						differences. It lets you make changes to the page without affecting the actual DOM, which is
+						like the painting on your wall. The Virtual DOM is faster and more efficient than the real DOM,
+						because it only updates the parts that need to change, not the whole page. The Virtual DOM is
+						like a funny mirror that reflects your web page, but with some twists and tweaks.
+
+					</p>
 				</li>
 				<li>
 					React also uses a syntax called JSX, which is a mix of JavaScript and
@@ -450,9 +468,10 @@
 				As a progressive framework, it can be easily integrated with other
 				frameworks or libraries, such as React, Angular, Bootstrap, etc.
 			</Step>
-			<Step>
-				Has some drawbacks, lack of support for large-scale projects risk of and over flexibility, limited resources
-			</Step>
+		<!--	<Step>
+				Has some drawbacks, lack of support for large-scale projects risk of and
+				over flexibility, limited resources
+			</Step>-->
 			<Step>
 				Used by companies like Adobe, Behance, Alibaba, Gitlab, Xiaomi, etc.
 			</Step>
@@ -586,31 +605,50 @@
 		<Step type="div" class="mt-5 bg-black bg-opacity-30">
 			<Step class="mt-5">StackOverflow's Most Loved Framework of 2021</Step>
 			<Step>
-				Svelte is a JavaScript framework for building user interfaces that shifts most of the work to a compile step, resulting in faster and smaller web applications.
+				Svelte is a JavaScript framework for building user interfaces that
+				shifts most of the work to a compile step, resulting in faster and
+				smaller web applications.
 			</Step>
 			<Step>
-				Svelte does not use a virtual DOM or other runtime abstractions. It generates plain JavaScript code that updates the DOM directly, minimizing the overhead and improving the responsiveness of your app.
+				Svelte does not use a virtual DOM or other runtime abstractions. It
+				generates plain JavaScript code that updates the DOM directly,
+				minimizing the overhead and improving the responsiveness of your app.
 			</Step>
 			<Step>
-				Svelte has a simple and expressive syntax that is close to HTML, CSS, and JavaScript. You can write less code and focus on the logic of your components.
+				Svelte has a simple and expressive syntax that is close to HTML, CSS,
+				and JavaScript. You can write less code and focus on the logic of your
+				components.
 			</Step>
 
 			<Step>
 				Drawbacks include immature tools, young ecosystem, compiler complexity
 			</Step>
-			<Step>The New York Times, Philips, Rakuten, GoDaddy, Apple Music, Ikea, Forbes</Step>
+			<Step
+			>The New York Times, Philips, Rakuten, GoDaddy, Apple Music, Ikea,
+				Forbes
+			</Step
+			>
 		</Step>
 
 		<Notes>
 			<ul>
 				<li>
-					- **Immature tools**: Svelte is still a young framework and its tooling is not as mature as other frameworks. For example, IDE support, dev tools, and testing libraries are still in development or have limited features.
+					- **Immature tools**: Svelte is still a young framework and its
+					tooling is not as mature as other frameworks. For example, IDE
+					support, dev tools, and testing libraries are still in development or
+					have limited features.
 				</li>
 				<li>
-					- **Young ecosystem**: Svelte has a smaller community and fewer open-source libraries than other frameworks. You may not find a ready-made solution for some of your needs and have to build it yourself or wait for the ecosystem to grow.
+					- **Young ecosystem**: Svelte has a smaller community and fewer
+					open-source libraries than other frameworks. You may not find a
+					ready-made solution for some of your needs and have to build it
+					yourself or wait for the ecosystem to grow.
 				</li>
 				<li>
-					- **Compiler complexity**: Svelte relies on a compiler to transform your components into JavaScript. This adds some complexity and potential issues to your development process, such as debugging, source maps, and compatibility.
+					- **Compiler complexity**: Svelte relies on a compiler to transform
+					your components into JavaScript. This adds some complexity and
+					potential issues to your development process, such as debugging,
+					source maps, and compatibility.
 				</li>
 			</ul>
 		</Notes>

@@ -4,6 +4,7 @@
 	import Javascript from './slides/2-javascript.svelte'
 	import Styles from './slides/3-styles.svelte'
 	import PWA from './slides/4-pwa.svelte'
+	import FAQ from './slides/5-faq.svelte'
 </script>
 
 <Presentation>
@@ -11,6 +12,7 @@
 	<Javascript />
 	<Styles />
 	<PWA />
+	<FAQ />
 	<Slide>
 		<h1>Hit me up!</h1>
 		<p>https://www.linkedin.com/in/mpollente/</p>
@@ -24,12 +26,5 @@
 				always game.
 			</p>
 		</Notes>
-	</Slide>
-	<Slide>
-		<h1>FAQs</h1>
-
-        <ol>
-            <li>Don't be a frameworker, be an engineer</li>
-        </ol>
 	</Slide>
 </Presentation>

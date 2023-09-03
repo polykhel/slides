@@ -416,7 +416,7 @@
         </Notes>
     </Slide>
     <Slide
-            iframe="https://stackblitz.com/edit/stackblitz-starters-bcvkzp?ctl=1&embed=1&file=src%2FApp.js"
+            iframe="https://stackblitz.com/edit/stackblitz-starters-cnzxmg?embed=1&file=src%2FApp.js"
     ></Slide>
     <Slide>
         <h1>Takeaways</h1>
