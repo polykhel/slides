@@ -149,7 +149,7 @@
 			<i class="devicon-javascript-plain colored"></i>
 		</h1>
 
-		<Code lang="js" lines="15-20|16|17|18|23-26|1-29">
+		<Code lang="js" lines="15-20|16|17|18|22-25|1-28">
 			{`
                 <html lang="en">
                 <body>
@@ -169,7 +169,6 @@
                             const li = document.createElement('li')
                             li.innerHTML = todoText;
                             todoList.appendChild(li);
-                            input.value = ''
                         }
 
                         // Events
@@ -238,20 +237,6 @@
 				<Step type="li">By far the most popular framework</Step>
 			</ul>
 		</Step>
-		<Step>
-			<div class="flex justify-center items-center mt-10">
-				<Media
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-					allowfullscreen
-					frameborder="0"
-					height="315"
-					src="https://www.youtube.com/embed/8pDqJVdNa44"
-					title="YouTube video player"
-					type="iframe"
-					width="560"
-				></Media>
-			</div>
-		</Step>
 
 		<Notes>
 			<ul>
@@ -296,7 +281,7 @@
 			<i class="devicon-react-original colored"></i>
 		</h1>
 
-		<Code lang="jsx" lines="1-33|4|7|7,26-28|21-24|13-17|10,22">
+		<Code lang="jsx" lines="1-33|4|7|7,26-28|21-24|13-17|10,22|1-33">
 			{`
             import { useRef, useState } from 'react';
             import './App.css';
@@ -383,7 +368,7 @@
 		</Notes>
 	</Slide>
 	<Slide
-		iframe="https://stackblitz.com/edit/stackblitz-starters-bjwidc?ctl=1&embed=1&file=src%2FApp.js"
+		iframe="https://stackblitz.com/edit/stackblitz-starters-bjwidc?ctl=1&embed=1&file=src%2Fcomponents%2FTodo.js"
 	></Slide>
 
 	<Slide>
@@ -606,6 +591,9 @@
 			<Step>
 				Svelte does not use a virtual DOM or other runtime abstractions. It generates plain JavaScript code that updates the DOM directly, minimizing the overhead and improving the responsiveness of your app.
 			</Step>
+			<Step>
+				Svelte has a simple and expressive syntax that is close to HTML, CSS, and JavaScript. You can write less code and focus on the logic of your components.
+			</Step>
 
 			<Step>
 				Drawbacks include immature tools, young ecosystem, compiler complexity
@@ -635,8 +623,6 @@
 		<Code lang="svelte">
 			{`
             <script>
-                import { onMount } from 'svelte';
-
                 let todos = [];
                 let todoText = '';
 

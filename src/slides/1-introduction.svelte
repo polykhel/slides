@@ -22,10 +22,10 @@
 		<p>
 			Nabigay na topic sakin is to discuss the latest tech advancements in software engineering and web
 			development.
-			Una kong balak is to discuss yung advancements from frontend, backend, devops, cloud even yung emergence ng
+			I planned to discuss sana yung mga advancements sa frontend, backend, devops, cloud, even yung emergence ng
 			generative AI.
-			Pero nung ginagawa ko yung presentation, sa front-end pa lang sobrang dami na pwedeng
-			ma-discuss, unless i-breeze through ko lahat, hindi abbot sa allotted time ko, kaya nilimit ko na lang yung
+			Pero habang ginagawa ko yung presentation, sa front-end pa lang sobrang dami na pwedeng
+			ma-discuss kaya nilimit ko na lang yung
 			presentation ko today to the latest trends in front-end development. We'll
 			talk about the rise of JavaScript frameworks and component-based architecture,
 			new ways style your web apps using utility libraries like Tailwind CSS and CSS-in-JS solutions, and how to
@@ -75,9 +75,6 @@
 			mong gumagana yung ginawa mo at nagagamit ng maraming tao at na-iimprove
 			yung experience nila.
 		</p>
-		<p>
-			I also enjoy learning new things. Since I'm a fullstack developer, I always keep up sa mga latest trends both sa frontend and backend.
-		</p>
 	</Notes>
 </Slide>
 <Slide>
@@ -107,7 +104,7 @@
 			fundamentals. While tools may change, the core principles remain
 			relatively constant. Personally, I'm not a master of everything I'm going
 			to talk about later, pero I keep myself updated through newsletters, blog,
-			etc. Kasi, like I said, I enjoy trying new things.
+			etc. kasi I enjoy trying new things, which I also like sharing.
 		</p>
 	</Notes>
 </Slide>
@@ -129,6 +126,7 @@
 		</Notes>
 	</Slide>
 	<Slide iframe="https://wiby.me/">
+		<Notes>http://www.rsrich.force9.co.uk/zetec-turbo/</Notes>
 	</Slide>
 	<Slide iframe="https://tailwindcss.com/showcase">
 		<Notes>
