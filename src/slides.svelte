@@ -12,7 +12,6 @@
 	<Javascript />
 	<Styles />
 	<PWA />
-	<FAQ />
 	<Slide>
 		<h1>Hit me up!</h1>
 		<p>https://www.linkedin.com/in/mpollente/</p>
@@ -27,4 +26,5 @@
 			</p>
 		</Notes>
 	</Slide>
+	<FAQ />
 </Presentation>
