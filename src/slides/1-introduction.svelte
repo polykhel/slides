@@ -108,7 +108,7 @@
 		</p>
 	</Notes>
 </Slide>
-<Vertical>
+<!--<Vertical>
 	<Slide animate class="bg-black bg-opacity-30 text-3xl p-3">
 		<h1>Evolution of Front-end Development</h1>
 		<sub
@@ -136,4 +136,4 @@
 			</p>
 		</Notes>
 	</Slide>
-</Vertical>
+</Vertical>-->

@@ -30,7 +30,7 @@
             </p>
         </Notes>
     </Slide>
-    <Slide>
+<!--    <Slide>
         <div class="grid grid-cols-3 gap-4 mx-auto">
             <Media class="object-contain w-96" src={bootstrapLogo} type="img"></Media>
             <Media class="object-contain w-96" src={foundationLogo} type="img"
@@ -71,7 +71,7 @@
                 Bootstrap. At first glance, halata mo na Bootstrap ang gamit mo.
             </p>
         </Notes>
-    </Slide>
+    </Slide>-->
     <Slide animate>
         <h1>
             Tailwind CSS
