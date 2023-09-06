@@ -57,30 +57,6 @@
 			</p>
 		</Notes>
 	</Slide>
-	<Slide>
-		<FitText class="bg-black bg-opacity-30 p-3" type="div"
-			>Which JavaScript framework is the best?
-		</FitText>
-
-		<Notes>
-			<p>
-				Which framework is the best? You see this question asked a lot of times
-				on StackOverflow, reddit, or other forums. If we go by downloads, React
-				wins. Based on Github stars, Vue is the best. But Svelte is the most
-				loved framework according to the 2021 StackOverflow survey. Spoiler
-				alert, they are all good & bad. There's no absolute best framework. It's
-				all in the preference of the users. In order to determine which makes
-				you happy, let's make something with all of them. We're going to build a
-				Todo app for Vanila JS, React, Angular, Vue and Svelte. In the process,
-				you'll learn the tradeoffs between each of these frameworks so you can
-				make the best choice for your next project.
-			</p>
-			<p>
-				Let's explore some of the most popular JavaScript frameworks today by
-				building a simple Todo app for each one.
-			</p>
-		</Notes>
-	</Slide>
 
 	<Slide animate>
 		<h1 class="text-yellow-200">
@@ -699,10 +675,34 @@
 		iframe="https://stackblitz.com/edit/vitejs-vite-w4rgar?ctl=1&embed=1&file=src%2FApp.svelte"
 	>
 		<Notes
-			>JavaScript frameworks and component-based architecture have fueled the
-			creation of remarkable applications that span industries. From social
-			media platforms to e-commerce giants, the influence of these advancements
-			is evident in the seamless experiences they deliver.</Notes
+			></Notes
 		>
 	</Slide>
+
+    <Slide>
+        <FitText class="bg-black bg-opacity-30 p-3" type="div"
+        >Which JavaScript framework is the best?
+        </FitText>
+
+        <Notes>
+            <p>
+                Which framework is the best? You see this question asked a lot of times
+                on StackOverflow, reddit, or other forums. If we go by downloads, React
+                wins. Based on Github stars, Vue is the best. But Svelte is the most
+                loved framework according to the 2021 StackOverflow survey. Spoiler
+                alert, they are all good & bad. There's no absolute best framework. It's
+                all in the preference of the users. In order to determine which makes
+                you happy, let's make something with all of them. We built a
+                Todo app for Vanilla JS, React, Angular, Vue and Svelte. In the process,
+                we learned the tradeoffs between each of these frameworks so you can
+                make the best choice for your next project.
+            </p>
+            <p>
+                JavaScript frameworks and component-based architecture have fueled the
+                creation of remarkable applications that span industries. From social
+                media platforms to e-commerce giants, the influence of these advancements
+                is evident in the seamless experiences they deliver.
+            </p>
+        </Notes>
+    </Slide>
 </Vertical>
