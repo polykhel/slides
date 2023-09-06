@@ -58,7 +58,7 @@
 		</Notes>
 	</Slide>
 
-	<Slide animate>
+	<!--<Slide animate>
 		<h1 class="text-yellow-200">
 			Vanilla JavaScript
 			<i class="devicon-javascript-plain colored"></i>
@@ -89,8 +89,8 @@
 				we have an unordered list for the todos.
 			</p>
 		</Notes>
-	</Slide>
-	<Slide animate>
+	</Slide>-->
+	<!--<Slide animate>
 		<h1 class="text-yellow-200">
 			Vanilla JavaScript
 			<i class="devicon-javascript-plain colored"></i>
@@ -124,8 +124,8 @@
 				html elements from the DOM. Now that we have access to the HTML elements
 			</p></Notes
 		>
-	</Slide>
-	<Slide animate>
+	</Slide>-->
+	<!--<Slide animate>
 		<h1 class="text-yellow-200">
 			Vanilla JavaScript
 			<i class="devicon-javascript-plain colored"></i>
@@ -182,11 +182,37 @@
 				current value in the text input.
 			</p>
 		</Notes>
-	</Slide>
+	</Slide>-->
 	<Slide
 		iframe="https://stackblitz.com/edit/js-ve5hsm?ctl=1&embed=1&file=index.html"
 	>
 		<Notes>
+            <p>
+                Let's try to build it first using vanilla JavaScript. As you can see
+                here, we have a form with an input and a button to submit the form. Then
+                we have an unordered list for the todos.
+            </p>
+            <p>
+                One thing that all frameworks have and vanilla js doesn't is to bind or
+                connect your html to the javascript. In vanilla, we need to grab the
+                html elements from the DOM. Now that we have access to the HTML elements
+            </p>
+            <p>
+                This is our function to add the todo text. It accepts a todoText as its
+                argument. Now this is where it gets complicated with vanilla. In order
+                to update the UI, we need to manually create a new list item element by
+                calling document create element, then we need to update its inner html
+                to the to-do text and finally append it to the unordered list in the
+                DOM.
+            </p>
+            <p>
+                Now that we have a function in place, we need to register an event
+                listener on the form's on submit event. When that event is fired, this
+                function will always be called. We'll first call prevent default to
+                prevent the browser's default behavior, in this case, we need to prevent
+                it from refreshing the page then call the add to do function with the
+                current value in the text input.
+            </p>
 			<p>
 				We just built a to-do app with vanilla JS, but this is not going to
 				scale very well. If we're going to add routing or animation, we need to
